@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>8KG</h1>
+    <div class="container">
+        <div class="game-container" id="game1">
+            <h2>ILOVEYOU</h2>
+            <input type="text" id="passwordInput" placeholder="Enter 3 word (no space)">
+            <button onclick="checkPassword()">submit</button>
+            <p id="passwordResult"></p>
+        </div>
+        <div class="game-container" id="game2" style="display: none;">
+            <h2>Where are the different?</h2>
+            <div class="image-container">
+                <img src="image/image1.jpg" alt="圖片1" id="image1">
+            </div>
+            <div class="image-container">
+                <img src="image/image2.jpg" alt="圖片2" id="image2">
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
